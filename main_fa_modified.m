@@ -7,7 +7,7 @@ warning off
 global MaxIt nPop mu method
 flag=1;
 ang = 90;%input('Enter the angle : ');
-list = dir('D:\Ph.D\Ph.D. WORK codes\OU_MVLP_Dataset\**');
+list = dir('D:\Ph.D\Ph.D. WORK codes\CASIA_B_Dataset\**');
 kk=ang;
 kkk=num2str(kk);
           if kk < 10

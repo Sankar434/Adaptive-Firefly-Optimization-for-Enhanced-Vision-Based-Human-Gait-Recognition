@@ -4,11 +4,11 @@ Install MATLAB latest vesrsion:MATLABR2021a/any other latest version
 Run the code:
 Select the main source code file:  "main_fa_modified.m" file  
 Dataset:
-I this work we used openly avilable two largest human gait datasets
+In this work we used two openly avilable largest multiview human gait datasets
 i)CASIA-B
 ii)OUMVLP
 Procedure:
-The dataset consists of Gait Energy Image (GEI).
+Both the datasets consists of Gait Energy Images (GEIs).
 The GEI templates undergo preprocessing, which may include normalization, noise reduction, and other techniques to enhance data quality. From the original GEI templates, derive transformed templates such as Gait Entropy Image (GEnI) and Gradient Gait Energy Image (GGEI).These transformations capture various aspects or representations of gait patterns, potentially improving feature discriminative power. 
 We then apply Multiple Discriminant Analysis (MDA) to reduce dimensionality and extract features. MDA seeks to find a data projection that maximizes class separability, reducing dimensionality while preserving discriminative information. 
 Subsequently, the Adaptive Firefly Optimization Algorithm (AFOA) refines the features extracted by MDA through feature selection. AFOA selects the most relevant and discriminative features from the high-dimensional space, enhancing computational efficiency and classification performance.
@@ -22,9 +22,9 @@ The OU-MVLP dataset is one of the largest multi-view gait datasets. The dataset 
 Initially select any one of the datset.
 Here we are providing both datasets google drive link to access data.
 https://drive.google.com/drive/folders/1wjYzRTZi5_oHMdVZdPyQ3VzVHT2OmHv2?usp=drive_link
-Change angles (at probe set) 
-for example  ang = 90;
+Change angles (at test set/probe set) 
+for example:  ang = 90;
 change directory/path
-list = dir('D:\Ph.D\Ph.D. WORK codes\CASIA_B_Dataset\**');
+for example: list = dir('D:\Ph.D\Ph.D. WORK codes\CASIA_B_Dataset\**');
 Run the code 
-Finally you will get results sucessfully in the command window and figure window.
+Finally you will get results sucessfully in the command window in terms of accuracy, sensitivity, specificity, precision, and error rate and Figure window provides confusion matrices and accuracy comparison chart.

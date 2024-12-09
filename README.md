@@ -22,6 +22,9 @@ The OU-MVLP dataset is one of the largest multi-view gait datasets. The dataset 
 Initially select any one of the datset.
 Here we are providing both datasets google drive link to access data.
 https://drive.google.com/drive/folders/1wjYzRTZi5_oHMdVZdPyQ3VzVHT2OmHv2?usp=drive_link
-Change directory to the select the data 
+Change angles (at probe set) 
+for example  ang = 90;
+change directory/path
+list = dir('D:\Ph.D\Ph.D. WORK codes\CASIA_B_Dataset\**');
 Run the code 
 Finally you will get results sucessfully in the command window and figure window.
